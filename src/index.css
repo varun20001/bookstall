@@ -1,0 +1,22 @@
+/* src/index.css or src/App.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal overflow */
+  background-color: #f0f0f0; /* Light grey background */
+  color: #333; /* Dark grey text */
+  font-family: 'Helvetica Neue', Arial, sans-serif; /* Clean, modern font */
+}
+
+* {
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+a {
+  color: #1e90ff; /* Vibrant blue links */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1c7ed6; /* Slightly darker blue on hover */
+}

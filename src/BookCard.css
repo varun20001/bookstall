@@ -1,0 +1,42 @@
+/* src/components/BookCard.css */
+.book-card {
+    background-color: #ffffff; /* White background */
+    color: #333; /* Dark grey text */
+    border: 1px solid #ddd; /* Light grey border */
+    border-radius: 8px;
+    padding: 16px;
+    margin: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    max-width: 300px; /* Limit width to prevent overflow */
+    transition: transform 0.2s; /* Smooth transform transition */
+  }
+  
+  .book-card:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
+  .book-card h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    color: #1e90ff; /* Vibrant blue text for titles */
+  }
+  
+  .book-card p {
+    font-size: 1em;
+    margin-bottom: 1em;
+  }
+  
+  .book-card button {
+    background-color: #1e90ff; /* Vibrant blue button */
+    color: #fff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .book-card button:hover {
+    background-color: #1c7ed6; /* Slightly darker blue on hover */
+  }
+  
